@@ -1,0 +1,7 @@
+domain: tutorial.kubebuilder.io
+repo: github.com/hr1sh1kesh/example-api
+resources:
+- group: batch
+  kind: CronJob
+  version: v1
+version: "2"
